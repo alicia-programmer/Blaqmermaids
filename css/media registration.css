@@ -1,0 +1,156 @@
+@media (min-width: 2400px){
+  /* IMAGE TEXT */
+.image_text_text p{
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.image_text_text h2{
+  font-weight: 350;
+  font-size: 60px;
+  margin: 17px 40px;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+/* Registration from */
+.register{
+  margin: 8% 5% 9%;
+}
+form{
+  width: 90%;
+}
+.labels{
+  margin: 0 0 20px;
+  padding: 5% 4%;
+}
+.labels label{
+  font-size: 33px;
+}
+.notice{
+  font-size: 35px;
+  margin: 2% 0 5%;
+}
+.inputs_input{
+  width: 99%;
+  padding: 30px 10px;
+  font-size: 30px;
+  margin: 35px 0 0;
+}
+.align p{
+  font-size: 31px;
+}
+.check{
+  width: 40px;
+  height: 40px;
+  margin: 0 15px 15px 0;
+}
+.page_no h2{
+  font-size: 28px;
+  margin: 4% 0 0;
+}
+.page_no p{
+  font-size: 33px;
+  margin: 3% 0;
+}
+.register_btn{
+  margin: 5% 0 3%;
+}
+.register_btn .send{
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-size: 33px;
+}
+.register_btn .clear{
+  padding: 10px 20px;
+  font-size: 33px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+}
+}
+
+@media (max-width: 680px) {
+  #scroll_btn{
+    visibility: hidden;
+  }
+.image_text_text p{
+  font-size: 18px;
+}
+.image_text_text h2{
+  font-size: 40px;
+}
+}
+
+@media (max-width: 540px) {
+    .page_no h2{
+        font-size: 16px;
+      }
+      .page_no p{
+        font-size: 17px;
+      }
+      .inputs_input{
+        width: 96%;
+      }
+}
+
+@media (max-width: 570px) {
+    .image_text_text p{
+      font-size: 17px;
+    }
+    .image_text_text h2{
+      font-size: 30px;
+    }
+    .labels label{
+        font-size: 16px;
+      }
+      .register{
+        margin: 8% 2% 9%;
+      }
+}
+
+@media (max-width: 465px) {
+    .image_text_text p{
+      font-size: 16px;
+    }
+    .image_text_text h2{
+      font-size: 25px;
+    }
+    .inputs_input{
+        width: 92%;
+      }
+      .register{
+        margin: 8% 1% 9%;
+      }
+}
+
+@media (max-width: 420px) {
+    .image_text_text p{
+      font-size: 14px;
+    }
+    .image_text_text h2{
+      font-size: 19px;
+    }
+}
+
+@media (max-width: 350px) {
+    .image_text_text p{
+      font-size: 14px;
+    }
+    .image_text_text h2{
+      font-size: 18px;
+    }
+    .labels label{
+        font-size: 13px;
+      }
+}
+@media (max-width: 325px){
+  .register_btn{
+    display: block;
+    text-align: center;
+  }
+  .register_btn button{
+    margin: 0 0 10px;
+  }
+  .inputs_input{
+    width: 90%;
+  }
+}

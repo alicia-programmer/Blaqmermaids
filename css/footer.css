@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Footer */
+.footer_container{
+background-image: url('../pic/waterbg2.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.footer_frame{
+background-color: rgba(0, 191, 255,0.3);
+}
+.footer_item1{
+display: flex;
+padding: 6% 5% 5%;
+background-color: rgba(0, 0, 0,0.8);
+}
+.footer_content{
+width: 50%;
+height: inherit;
+}
+.footer_logo{
+  text-align: center;
+}
+.footer_anchors{
+padding: 5% 0;
+text-align: center;
+}
+.footer_anchors a{
+text-decoration: none;
+color: #fff;
+font-size: 40px;
+transition: 0.3s;
+margin: 0 8px;
+}
+.footer_anchors a:hover{
+color: #00bfff;
+}
+.footer_address{
+width: 50%;
+font-size: 25px;
+display: block;
+box-sizing: border-box;
+color: #fff;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: lighter;
+}
+.footer_address h2{
+font-weight: 200;
+margin: 0 0 20px;
+
+}
+.footer_sub_anchors{
+margin: 10px 0;
+display: inline-flex;
+line-height: 30px;
+}
+.footer_sub_anchors span{
+margin-right: 25px;
+}
+.footer_sub_anchors span i{
+font-size: 40px;
+}
+.footer_address a{
+text-decoration: none;
+color: #fff;
+transition: 0.3s;
+padding: 15px 0;
+}
+.footer_address a:hover{
+color: #00bfff;
+}
+.footer_item2{
+background-color: black;
+padding: 4% 0;
+color: #fff;
+text-align: center;
+}
+.footer_item2 p{
+margin: 8px 0;
+font-size: 19px;
+}
+.footer_item2 span{
+  color: #00bfff;
+}
+.footer_item2 a{
+  color: #00bfff;
+  text-decoration: none;
+}

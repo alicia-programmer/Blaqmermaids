@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Side Navbar Menu */
+.sidemenu_container{
+  background-color: #ffffffaa;
+  height: 100%;
+  width: 160px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sidemenu_frame{
+  height: inherit;
+}
+.sidemenu_content{
+  height: inherit;
+  width: 100%;
+  background-color: #00bfff44;
+}
+.mobile_menu{
+display: none;
+}
+.bx-menu{
+display: none;
+}
+
+/* Logo container */
+.sidemenu_logo{
+  width: 100%;
+  background-color: #ffffffdd;
+}
+.transition_frame{
+width: 100%;
+height: 75%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.in_center{}
+.expand{
+padding: 17% 0;
+font-size: 21px;
+border-bottom: 1px solid black;
+}
+.expand:last-child{
+border: 0;
+padding: 17% 0 0;
+}
+.expand:first-child{
+padding: 0 0 17%;
+}
+.expand a{
+text-decoration: none;
+color: black;
+padding: 5px 15px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 200;
+transition: 0.4s;
+}
+.expand a:hover{
+color: darkblue;
+}
+.one:hover .dropdown-content{
+  opacity: 1;
+  margin: -43px 0 0 137px;
+}
+.content_drop .bx-chevron-right{
+  font-size: 30px;
+  float: inline-end;
+}  
+.three:hover .dropdown-content{
+  opacity: 1;
+  margin: -43px 0 0 137px;
+}
+
+/* Dropdown div */
+.dropdown-content{
+opacity: 0;
+position: absolute;
+background-color: #00bfffaa;
+min-width: 240px;
+overflow: auto;
+margin: -35px 0 0 150px;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+z-index: 1;
+transition: 0.4s;
+border-radius: 5px;
+}
+.dropdown-content a{
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+transition: 0.4s;
+}
+.dropdown-content a:hover{
+background-color: #00bfff;
+}
+.dropdown a:hover{
+background-color: white;
+}
+
+/* Sub menu dropdown */
+.sub_drop{
+  display: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 4;
+  transition: 0.4s;
+  min-width: 200px;
+  border-radius: 5px;
+}
+.sub_drop a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: 0.4s;
+}
+.sub_drop a:hover{
+  background-color: #00bfff;
+}
+#hover_drop:hover .sub_drop{
+  display: block;
+}  
+.swimming_lessons{
+  display: inline-flex;
+  transition: 0.5s;
+  width: 100%;
+}
+.bx-chevron-down{
+  margin-left: 0px;
+  font-size: 35px;
+  align-self: center;
+}
+.swimming_lessons:hover{
+  background-color: #00bfff;
+}
+.show{
+display: block;
+}
+.visible{
+display: block;
+}

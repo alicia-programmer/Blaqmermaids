@@ -1,0 +1,971 @@
+  @media (min-width: 2000px){
+    .body{
+      width: 1700px;
+      margin: 0 auto;
+    }
+    /* Main Background Image */
+    .image_container{
+      height: 100vh;
+      width: 100%;
+    }
+    /* IMAGE TEXT */
+    .image_text{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    .image_text_text h2{
+      font-size: 70px;
+    }
+    .image_text_text a{
+      font-size: 25px;
+    }
+    .program_heading h2{
+      font-size: 45px;
+    }
+    .program_heading p{
+      font-size: 30px;
+      line-height: 35px;
+    }
+    .program_text h2{
+      font-size: 50px;
+      margin: 0 0 0;
+  }
+  .program_text p{
+      font-size: 30px;
+      height: 500px;
+      line-height: 45px;
+      margin: 3% 0 7%;
+  }
+  .program_text a{
+      height: 200px;
+      padding: 17px 50px;
+      font-size: 33px;
+      height: 70px;
+      width: 300px;
+      text-align: center;
+  }
+  .program{
+    display: flex;
+    margin: 0 0 13% 0;
+  }
+  .program_img{
+    height: 700px;
+    margin: 0 4% 0 0;
+  }
+  .program_img img{
+    width: 550px;
+    height: 700px;
+  }
+  .program_item1_text p{
+    height: 500px;
+  }
+  .program_item1_text p{
+    height: 500px;
+  }
+  .parallax_content h2{
+    font-size: 85px;
+  }
+  .parallax_content p{
+    font-size: 40px;
+  }
+
+  /* Slider container */
+  .slide_container h2{
+    font-size: 65px;
+  }
+  .mySlides img{
+    width: 100%;
+    height: 600px;
+  }
+  .slider_wrap{
+    height: 300px;
+  }
+  .column{
+    width: 320px;
+  }
+  .column img{
+    width: 100%;
+    height: 300px;
+  }
+  .slider_btn{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    padding: 25px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+  }
+
+  /* Tablinks */
+  .tablink {
+    padding: 17px 0;
+    margin: 0 15px 40px 0;
+    font-size: 30px;
+    width: 20%;
+  }
+  .tabcontent h2{
+    margin: 5% 0 4%;
+    text-align: center;
+    font-size: 55px;
+  }
+  .images-tab img{
+    width: 400px;
+    height: 400px;
+  }
+  }
+
+@media (max-width: 1240px){
+  .image_text{
+    height: inherit;
+    padding: 130px 30px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: first baseline;
+  }
+  /* Our Programs */
+  .program_text p{
+    font-size: 18px;
+    height: 330px;
+}
+  .program_item1_text p{
+    height: 320px;
+  }
+
+}
+
+@media (max-width: 1440px){
+  /* Media for big background image */
+  .image_container{
+    width: 100%;
+  }
+  .image_frame{
+    width: 100%;
+  }
+  .image_text{
+    padding: 50px 100px 0 180px;
+  }
+  .image_text_text h2{
+    margin: 10% 0 15%;
+    font-size: 45px;
+  }
+  .image_text_text a{
+    margin: 0 0 0 4%;
+  }
+}
+
+@media (max-width: 1110px){
+  .program_text h2{
+      font-size: 33px;
+      margin: 0 0 0;
+  }
+  .program_text p{
+      font-size: 18px;
+      height: 390px;
+      margin: 3% 0 7%;
+  }
+  .program_text a{
+      padding: 15px 50px;
+      height: 55px;
+      width: 200px;
+  }
+  .program_item1_text p{
+    height: 360px;
+  }
+}
+
+@media (max-width: 1024px){
+
+  .slide_container h2{
+    margin: 7% 0 3%;
+    font-size: 35px;
+  }
+  .mySlides img{
+    width: 100%;
+    height: 330px;
+  }
+  .row{
+    width: 350%;
+  }
+  .column{
+    width: 180px;
+  }
+  .column img{
+    height: 150px;
+  }
+
+    /* Media for big background image */
+    .image_container{
+      width: 100%;
+    }
+    .image_frame{
+      width: 100%;
+    }
+    .image_text{
+      padding: 130px 100px 0 180px;
+    }
+    .image_text_text h2{
+      margin: 10% 0 15%;
+      font-size: 45px;
+    }
+    .image_text_text a{
+      padding: 10px 25px;
+      margin: 0 0 0 4%;
+    }
+
+    /* Our Programs */
+    .programs_container{}
+    .program_heading h2{
+        font-size: 30px;
+    }
+    .program_heading p{
+        font-size: 18px;
+    }
+    /* Programs */
+    .program_img img{
+        width: 350px;
+        height: 430px;
+    }
+    .program_text h2{
+        font-size: 33px;
+        margin: 0 0 0;
+    }
+    .program_text {
+        height: auto;
+    }
+    .program_text p{
+        font-size: 18px;
+        height: 340px;
+        margin: 3% 0 7%;
+    }
+    .program_text a{}
+    .program_item1_text p{
+      height: 320px;
+    }
+    .program_img{
+        height: 430px;
+        margin: 0 3% 0 0;
+      }
+      .program{
+        margin: 0 0 13% 0;
+      }
+}
+
+@media (max-width: 960px){
+
+    /* Our Programs */
+    .programs_container{
+      margin: 8% 3% 0;
+    }
+    .program_heading{
+      width: 80%;
+    }
+    .program_heading h2{
+      font-size: 27px;
+    }
+   .program_heading p{
+      font-size: 17px;
+    }
+  /* Programs */
+  .program_img img{
+      width: 350px;
+      height: 440px;
+  }
+  .program_text h2{
+      font-size: 30px;
+      margin: 3% 0 1%;
+      text-align: center;
+  }
+  .program_text {
+      height: auto;
+  }
+  .program_text p{
+      font-size: 18px;
+      height: 330px;
+      margin: 3% 0 7%;
+  }
+  .program_text a{
+    padding: 15px 0 0;
+  }
+  .program_item1_text p{
+    height: 320px;
+  }
+  .program_img{
+      height: 440px;
+      margin: 0 3% 0 0;
+      text-align: center;
+    }
+    .program{
+      margin: 0 0 14% 0;
+    }
+
+
+    /* Styling for tab menu */
+.tablinks_frame{
+  padding: 0 3% 0;
+}
+.tablink {
+  padding: 10px 0;
+  margin: 0 10px 40px 0;
+  font-size: 16px;
+  width: 25%;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 50px 30px;
+}
+.tabcontent h2{
+  margin: 3% 0 4%;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+}
+
+@media (max-width: 955px){
+    /* Our Programs */
+    .programs_container{
+      margin: 8% 3% 0;
+    }
+    .program_heading{
+      width: 80%;
+    }
+    .program_heading h2{
+      font-size: 27px;
+    }
+   .program_heading p{
+      font-size: 17px;
+    }
+  /* Programs */
+  .program_img img{
+      width: 350px;
+      height: 440px;
+  }
+  .program_text h2{
+      font-size: 30px;
+      margin: 3% 0 1%;
+      text-align: center;
+  }
+  .program_text {
+      height: auto;
+  }
+  .program_text p{
+      font-size: 18px;
+      height: 370px;
+      margin: 3% 0 7%;
+  }
+  .program_text a{}
+  .program_item1_text p{
+    height: 320px;
+  }
+  .program_img{
+      height: 440px;
+      margin: 0 3% 0 0;
+      text-align: center;
+    }
+    .program{
+      margin: 0 0 14% 0;
+    }
+
+
+    /* Styling for tab menu */
+.tablinks_frame{
+  padding: 0 3% 0;
+}
+.tablink {
+  padding: 10px 0;
+  margin: 0 10px 40px 0;
+  font-size: 16px;
+  width: 25%;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 50px 30px;
+}
+.tabcontent h2{
+  margin: 3% 0 4%;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+}
+
+@media (max-width: 900px){
+    #scroll_btn{
+      visibility: hidden;
+    }
+    .image_text{
+      height: inherit;
+      padding: 170px 30px 0 0;
+      display: flex;
+      justify-content: flex-end;
+      align-items: first baseline;
+    }
+        /* Our Programs */
+        .programs_container{
+          margin: 8% 3% 0;
+        }
+        .program_heading{
+          width: 80%;
+        }
+        .program_heading h2{
+          font-size: 27px;
+        }
+       .program_heading p{
+          font-size: 17px;
+        }
+      /* Programs */
+      .program_img img{
+          width: 90%;
+          height: 400px;
+      }
+      .program_text h2{
+          font-size: 30px;
+          margin: 3% 0 1%;
+          text-align: center;
+      }
+      .program_text {
+          height: auto;
+          text-align: center;
+      }
+      .program_text p{
+          font-size: 18px;
+          height: 260px;
+          margin: 3% 0 3%;
+      }
+      .program_text a{
+        margin: 0 auto 0;
+      }
+      .program_item1_text p{
+        height: 230px;
+      }
+      .program_item2{
+        transform: scaleY(-1);
+      }
+      .program_item2_img{
+        transform: scaleY(-1);
+      }
+      .program_overlay_item2{
+        transform: scaleY(-1);
+      }
+      .program_img{
+          height: 400px;
+          margin: 0 3% 0 0;
+          text-align: center;
+        }
+        .program{
+          display: block;
+          margin: 0 0 11% 0;
+        }
+
+    /* Styling for tab menu */
+.tablinks_frame{
+  padding: 0 3% 0;
+}
+.tablink {
+  padding: 10px 0;
+  margin: 0 10px 40px 0;
+  font-size: 16px;
+  width: 25%;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 50px 30px;
+}
+.tabcontent h2{
+  margin: 3% 0 4%;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+.images-tab img{
+  width: 200px;
+  height: 200px;
+}
+} 
+
+@media (max-width: 875px){
+    /* Our Programs */
+    .programs_container{
+      margin: 8% 3% 0;
+    }
+    .program_heading{
+      width: 80%;
+    }
+    .program_heading h2{
+      font-size: 27px;
+    }
+   .program_heading p{
+      font-size: 17px;
+    }
+  /* Programs */
+  .program_text h2{
+      font-size: 30px;
+      margin: 3% 0 1%;
+      text-align: center;
+  }
+  .program_text {
+      height: auto;
+  }
+  .program_text p{
+      font-size: 18px;
+      height: 350px;
+      margin: 3% 0 7%;
+  }
+  .program_text a{}
+  .program_item1_text p{
+    height: 320px;
+  }
+  .program_img{
+      margin: 0 3% 0 0;
+      text-align: center;
+    }
+    .program{
+      margin: 0 0 14% 0;
+    }
+
+
+    /* Styling for tab menu */
+.tablinks_frame{
+  padding: 0 3% 0;
+}
+.tablink {
+  padding: 10px 0;
+  margin: 0 10px 40px 0;
+  font-size: 16px;
+  width: 25%;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 50px 30px;
+}
+.tabcontent h2{
+  margin: 3% 0 4%;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+}
+
+@media (max-width: 768px){
+    #scroll_btn{
+      visibility: hidden;
+    }
+    .image_text{
+      height: inherit;
+      padding: 170px 30px 0 0;
+      display: flex;
+      justify-content: flex-end;
+      align-items: first baseline;
+    }
+
+
+    /* Styling for tab menu */
+.tablinks_frame{
+  padding: 0 3% 0;
+}
+.tablink {
+  padding: 10px 0;
+  margin: 0 10px 40px 0;
+  font-size: 16px;
+  width: 25%;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 50px 30px;
+}
+.tabcontent h2{
+  margin: 3% 0 4%;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+.images-tab img{
+  width: 200px;
+  height: 200px;
+}
+}  
+
+/* Mobile large */
+
+@media (max-width: 650px){
+    #scroll_btn{
+      visibility: hidden;
+    }
+    /* Main Background Image */
+.image_container{
+  height: 80vh;
+  width: 100%;
+}
+/* IMAGE TEXT */
+.image_text{
+  height: inherit;
+  padding: 0 0 0 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.image_text_text{
+  width: 100%;
+}
+.image_text_text{
+  color: #fff;
+  text-align: right;
+}
+.image_text_text h2{
+font-weight: 350;
+font-size: 35px;
+margin: 10% 0 6%;
+letter-spacing: 3px;
+}
+.image_text_text a{
+padding: 7px 16px;
+margin: 0 0 0 0;
+border-radius: 30px;
+font-size: 15px;
+}
+    /* Our Programs */
+    .programs_container{
+      margin: 8% 1% 0;
+    }
+    .program_heading{
+      width: 80%;
+    }
+    .program_heading h2{
+      font-size: 27px;
+    }
+   .program_heading p{
+      font-size: 16px;
+      line-height: 25px;
+      width: 100%;
+    }
+  /* Programs */
+  .program_img img{
+      width: 100%;
+      height: 280px;
+  }
+  .program_text h2{
+      font-size: 22px;
+      margin: 4% 0 1%;
+      text-align: center;
+  }
+  .program_text {
+      height: auto;
+      text-align: center;
+  }
+  .program_text p{
+      font-size: 18px;
+      height: 350px;
+      margin: 3% 0 7%;
+  }
+  .program_text a{}
+  .program_item1_text p{
+    height: 320px;
+  }
+  .program_item2_text p{
+    height: 430px;
+  }
+  .program_img{
+      height: 280px;
+      margin: 0 0 0 0;
+      text-align: center;
+    }
+    .program{
+      display: block;
+      margin: 0 0 14% 0;
+    }
+
+    /* Parallax scroll */
+.parallax_container{
+  height: 70vh;
+  margin: 0 0 5%;
+}
+.parallax_frame{}
+.parallax_content{}
+.parallax_content h2{
+  font-size: 50px;
+  margin: 0 0 15px;
+  font-weight: lighter;
+}
+.parallax_content p{
+  font-size: 20px;
+}
+
+    /* Styling for tab menu */
+    .tablinks_container{
+      width: 100%;
+    }
+.tablinks_frame{
+  padding: 0 3% 0;
+}
+.tablink {
+  padding: 10px 0;
+  margin: 0 10px 40px 0;
+  font-size: 16px;
+  width: 40%;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 50px 30px;
+}
+.tabcontent h2{
+  margin: 3% 0 4%;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+.images-tab img{
+  width: 150px;
+  height: 150px;
+}
+}
+
+@media (max-width: 430px){
+    .slide_container h2{
+      margin: 7% 0 3%;
+      font-size: 25px;
+    }
+    .mySlides img{
+      width: 100%;
+      height: 220px;
+    }
+    .row{
+      width: 450%;
+    }
+    .column{
+      width: 160px;
+    }
+    .column img{
+      height: 150px;
+    }
+    .gallery_button button{
+      top: 40%;
+}
+
+@media (max-width: 380px){
+
+    .slide_container h2{
+      margin: 10% 0 3%;
+      font-size: 22px;
+    }
+    .mySlides img{
+      width: 100%;
+      height: 200px;
+    }
+    .column{
+      width: 140px;
+    }
+    .column img{
+      height: 140px;
+    }
+
+    /* Main Background Image */
+    .image_container{
+        height: 80vh;
+    }
+    /* IMAGE TEXT */
+    .image_text{
+      height: inherit;
+      padding: 0 0 0 0;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    .image_text_text h2{
+      font-size: 30px;
+      margin: 10% 0 10%;
+    }
+    .image_text_text a{
+      padding: 6px 10px;
+      margin: 0 0 0 11%;
+    }
+
+
+    /* Our Programs */
+    .programs_container{
+      margin: 8% 3% 0;
+    }
+    .program_heading{
+      width: 80%;
+    }
+    .program_heading h2{
+      font-size: 27px;
+    }
+    .program_heading p{
+      font-size: 17px;
+    }
+    .program_text h2{
+      font-size: 30px;
+      margin: 3% 0 1%;
+      text-align: center;
+    }
+    .program_text {
+      height: auto;
+      text-align: center;
+    }
+    .program_text p{
+      font-size: 16px;
+      height: 530px;
+    }
+    .program_text a{}
+    .program_item1_text p{
+    height: 470px;
+    }
+    .program_item1_text p{
+      height: 470px;
+      }
+
+    .tablink {
+      padding: 10px 0;
+      margin: 0 5px 40px 0;
+      font-size: 17px;
+      width: 48%;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+      padding: 50px;
+    }
+    .tabcontent h2{
+      margin: 3% 0 4%;
+      font-size: 30px;
+    }
+    .images-tab img{
+      width: 200px;
+      height: 200px;
+    }
+}
+
+
+@media (max-width: 330px){
+  .image_text{
+    padding: 100px 0 0 0;
+  }
+  .image_text_text h2{
+    font-size: 27px;
+    margin: 0 0 10%;
+    }
+    .image_text_text a{
+    padding: 10px 5px;
+    font-size: 14px;
+    }
+}
+
+@media (max-width: 290px){
+  /* Main Background Image */
+  .image_container{
+    height: 80vh;
+    width: 100%;
+  }
+  /* IMAGE TEXT */
+  .image_text{
+  height: inherit;
+  padding: 0 0 0 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  }
+  .image_text_text{
+    width: 100%;
+    color: #fff;
+    text-align: right;
+  }
+  .image_text_text h2{
+    font-size: 25px;
+    margin: 0 0 10%;
+    }
+    .image_text_text a{
+    padding: 10px 5px;
+    font-size: 12px;
+    }
+  /* Image slider gallery */
+  .row{
+    width: 520%;
+  }
+  /* Parallax image */
+  .parallax_container{
+    height: 60vh;
+  }
+  /* Our Programs */
+  .program_heading{
+    width: 100%;
+  }
+  .program_heading h2{
+    font-size: 25px;
+    margin: 0 0 10px;
+  }
+  .program_heading p{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .program_text p{
+    height: 620px;
+  }
+  .program_item1_text p{
+    height: 520px;
+  }
+ .program_item2_text p{
+    height: 630px;
+  }
+}
+
+@media (max-width: 260px){
+    .image_text_text h2{
+    font-size: 21px;
+    margin: 0 0 10%;
+    }
+    .image_text_text a{
+    padding: 10px 5px;
+    font-size: 11px;
+    }
+}
+
+@media (max-width: 230px){
+  /* Main image */
+  .image_text_text h2{
+    font-size: 18px;
+    margin: 0 0 10%;
+    }
+    .image_text_text a{
+    padding: 10px 5px;
+    font-size: 10px;
+    }
+    /* Our Programs */
+    .program_text p{
+      height: 760px;
+    }
+    .program_item1_text p{
+      height: 620px;
+    }
+   .program_item2_text p{
+      height: 800px;
+    }
+  }
+}

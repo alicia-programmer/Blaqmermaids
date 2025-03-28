@@ -1,0 +1,316 @@
+@media (min-width: 2400px){
+    /* Footer */
+    .footer_item1{
+    display: flex;
+    padding: 6% 5% 5%;
+    }
+    .footer_content{
+    width: 50%;
+    height: inherit;
+    }
+    .footer_logo{
+    height: 22%;
+    text-align: center;
+    }
+    .footer_logo a img{
+    width: 230px;
+    height: 230px;
+    }
+    .footer_anchors{
+    padding: 14% 0;
+    text-align: center;
+    }
+    .footer_anchors a{
+    font-size: 60px;
+    transition: 0.3s;
+    margin: 0 8px;
+    }
+    .footer_address{
+    width: 50%;
+    }
+    .footer_address h2{
+    font-weight: 200;
+    margin: 0 0 20px;
+    font-size: 60px;
+    }
+    .footer_sub_anchors{
+    margin: 10px 0;
+    line-height: 50px;
+    font-size: 45px;
+    }
+    .footer_sub_anchors span{
+    margin-right: 25px;
+    }
+    .footer_sub_anchors span i{
+    font-size: 40px;
+    }
+    .footer_address a{
+    padding: 15px 0;
+    font-size: 40px;
+    }
+    .footer_item2{
+    font-size: 30px;
+    padding: 4% 0;
+    }
+    .footer_item2 p{
+    margin: 8px 0;
+    }
+}
+
+@media (max-width: 960px){
+    .footer_content{
+        width: 50%;
+        }
+        .footer_anchors{
+        padding: 5% 0;
+        }
+        .footer_anchors a{
+        font-size: 40px;
+        transition: 0.3s;
+        margin: 0 5px;
+        }
+   
+        .footer_address{
+        width: 50%;
+        font-size: 22px;
+        }
+        .footer_address h2{
+        font-weight: 200;
+        margin: 0 0 15px;
+        }
+        .footer_sub_anchors{
+        margin: 10px 0;
+        line-height: 30px;
+        }
+        .footer_sub_anchors span{
+        margin-right: 25px;
+        }
+        .footer_sub_anchors span i{
+        font-size: 35px;
+        }
+        .footer_address a{
+        transition: 0.3s;
+        padding: 10px 0;
+        }
+}
+
+@media (max-width: 910px) {
+    .footer_item1{
+        padding: 6% 2% 5%;
+    }
+    .footer_content{
+     width: 40%;
+     }
+     .footer_logo{
+         width: 130px;
+         height: 130px;
+     }
+     .footer_logo img{
+         width: 130px;
+         height: 130px;
+     }
+     .footer_anchors{
+     padding: 5% 0;
+     text-align: left;
+     }
+     .footer_anchors a{
+     font-size: 35px;
+     transition: 0.3s;
+     margin: 0 5px;
+     }
+
+     .footer_address{
+     width: 60%;
+     font-size: 20px;
+     }
+     .footer_address h2{
+     font-weight: 200;
+     margin: 0 0 15px;
+     }
+     .footer_sub_anchors{
+     margin: 6px 0;
+     line-height: 30px;
+     font-size: 19px;
+     }
+     .footer_sub_anchors span{
+     margin-right: 10px;
+     }
+     .footer_sub_anchors span i{
+     font-size: 30px;
+     }
+     .footer_address a{
+     transition: 0.3s;
+     padding: 10px 0;
+     font-size: 19px;
+     }
+}
+
+@media (max-width: 768px) {
+    .footer_item1{
+        padding: 6% 2% 5%;
+    }
+    .footer_content{
+     width: 40%;
+     }
+     .footer_logo{
+         width: 130px;
+         height: 130px;
+     }
+     .footer_logo img{
+         width: 130px;
+         height: 130px;
+     }
+     .footer_anchors{
+     padding: 5% 0;
+     }
+     .footer_anchors a{
+     font-size: 35px;
+     transition: 0.3s;
+     margin: 0 5px;
+     }
+
+     .footer_address{
+     width: 53%;
+     font-size: 20px;
+     }
+     .footer_address h2{
+     font-weight: 200;
+     margin: 0 0 15px;
+     }
+     .footer_sub_anchors{
+     margin: 6px 0;
+     line-height: 30px;
+     font-size: 19px;
+     }
+     .footer_sub_anchors span{
+     margin-right: 10px;
+     }
+     .footer_sub_anchors span i{
+     font-size: 30px;
+     }
+     .footer_address a{
+     transition: 0.3s;
+     padding: 10px 0;
+     font-size: 19px;
+     }
+}
+
+@media (max-width: 700px){
+      
+      /* Footer */
+      .footer_container{}
+      .footer_frame{
+      background-color: rgba(0, 191, 255,0.3);
+      }
+      .footer_item1{
+      display: block;
+      padding: 0 3% 0;
+      background-color: rgba(0, 0, 0,0.8);
+      }
+      .footer_content{
+      width: 100%;
+      height: inherit;
+      }
+      .footer_logo{
+        margin: auto;
+      }
+      .footer_anchors{
+      padding: 5% 0;
+      width: 100%;
+      text-align: center;
+      }
+      .footer_anchors a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 30px;
+      transition: 0.3s;
+      margin: 0 8px;
+      }
+      .footer_anchors a:hover{
+      color: #00bfff;
+      }
+      .footer_address{
+      display: block;
+      box-sizing: border-box;
+      width: 100%;
+      font-size: 20px;
+      }
+      .footer_address h2{
+      font-weight: 200;
+      margin: 0 0 20px;
+      text-align: center;
+      
+      }
+      .footer_sub_anchors{
+      margin: 5px 0;
+      display: inline-flex;
+      line-height: 30px;
+      }
+      .footer_sub_anchors span{
+      margin-right: 25px;
+      }
+      .footer_sub_anchors span i{
+      font-size: 40px;
+      }
+      .footer_address a{
+      text-decoration: none;
+      color: #fff;
+      transition: 0.3s;
+      padding: 15px 0;
+      }
+      .footer_address a:hover{
+      color: #00bfff;
+      }
+      .footer_item2{
+      padding: 2% 0;
+      }
+      .footer_item2 p{
+      margin: 8px 0;
+      font-size: 13px;
+      }
+      .footer_item2 span{
+      color: #00bfff;
+      }
+}
+
+@media (max-width: 425px){
+    .footer_logo{
+        width: 110px;
+        height: 110px;
+      }
+        .footer_sub_anchors{
+        margin: 5px 0;
+        display: inline-flex;
+        line-height: 30px;
+        }
+        .footer_sub_anchors span{
+        margin-right: 10px;
+        }
+        .footer_sub_anchors span i{
+        font-size: 25px;
+        }
+        .footer_anchors a{
+            font-size: 32px;
+        }
+}
+
+@media (max-width: 380px){
+    .footer_sub_anchors p{
+        font-size: 17px;
+    }
+    .footer_address a{
+        font-size: 17px;
+    }
+    .footer_item2 p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 340px){
+    .footer_sub_anchors p{
+        font-size: 15px;
+    }
+    .footer_address a{
+        font-size: 15px;
+    }
+}

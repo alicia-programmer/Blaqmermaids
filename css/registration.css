@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+/* Javascript animation */
+.hidden{
+  opacity: 0;
+  transition: 1s;
+}
+.image_hide{
+  filter: blur(5px);
+  transform: translateY(22%);
+  transition: 1s;
+}
+/* Senior and children swimming */
+.delay{
+  transform: translateY(24%);
+}
+.scale{
+  transform: scale(0.7);
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+
+/* Scroll to top button */
+#scroll_btn{
+  border: 1px solid #fff;
+  outline: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #00bfff;
+  display: none;
+  z-index: 4;
+}
+#scroll_btn i{
+  color: #fff;
+  font-size: 35px;
+}
+
+/* Main Background Image */
+.image_container{
+    background-image: url('../pic/waterbg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 65vh;
+}
+.image_frame{
+    height: inherit;
+    background-color: rgba(0, 191, 255,0.1);
+}
+/* IMAGE TEXT */
+.image_text{
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0,0.4);
+}
+.image_text_text{
+  color: #fff;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.image_text_text p{
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.image_text_text h2{
+  font-weight: 350;
+  font-size: 50px;
+  margin: 17px 40px;
+  letter-spacing: 3px;
+  color: #fff;
+}
+.image_text_text span{
+  font-weight: bolder;
+}
+
+/* Registration from */
+.register{
+  margin: 8% 5% 9%;
+}
+.register_frame{}
+.register_content{}
+.form{}
+form{
+  width: 90%;
+  margin: 0 auto;
+}
+.labels{
+  margin: 0 0 20px;
+  border: 1px solid black;
+  padding: 5% 4%;
+}
+.labels label{
+  font-size: 20px;
+}
+.notice{
+  font-size: 22px;
+  text-align: center;
+  margin: 2% 0 5%;
+}
+.align{
+  display: inline-flex;
+}
+.labels input{
+  border: 1px solid #c0c0c066;
+  outline: none;
+}
+.inputs_input{
+  width: 97%;
+  padding: 10px 10px;
+  font-size: 15px;
+  margin: 35px 0 0;
+}
+.check{
+  width: 20px;
+  height: 20px;
+  margin: 0 15px 15px 0;
+  font-size: 19px;
+}
+.page_no h2{
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+  color: grey;
+  margin: 4% 0 0;
+}
+.page_no p{
+  text-align: center;
+  font-size: 19px;
+  margin: 3% 0;
+}
+.register_btn{
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0 3%;
+}
+.register_btn .send{
+  background-color: #00bfff;
+  padding: 10px 40px;
+  border: none;
+  color: #fff;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.register_btn .send:hover{
+  background-color: #00bfffaa;
+}
+.register_btn .clear:hover{
+  background-color: #00bfff11;
+}
+.register_btn .clear{
+  border: none;
+  color: #00bfff;
+  outline: none;
+  padding: 10px 20px;
+  background-color: white;
+  font-size: 16px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+}

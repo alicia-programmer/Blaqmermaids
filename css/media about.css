@@ -1,0 +1,669 @@
+@media (min-width: 2400px){
+  .body{
+    margin: 0 auto;
+    width: 1700px;
+  }
+  /* Main Background Image */
+/* IMAGE TEXT */
+.image_text_text{
+  text-align: center;
+  width: 60%;
+}
+.image_text_text h2{
+font-weight: 350;
+font-size: 100px;
+}
+.image_text_text p{
+margin: 2% 0 7%;
+font-size: 50px;
+}
+.image_text_text a{
+padding: 17px 40px;
+border-radius: 30px;
+font-size: 35px;
+}  
+   
+   /* Parallax scrolling */
+.text{
+  padding: 8% 5% 6%;
+}
+.text h2{
+  font-size: 43px;
+  line-height: 50px;
+}
+.text p{
+  font-size: 38px;
+  line-height: 55px;
+}
+
+/* Meet the team */
+.team_container{
+  margin: 8% 9% 12%;
+}
+.team_frame{}
+.team_frame h2{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  margin: 0 0 1% 0;
+}
+.team_frame p{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: darkgrey;
+  margin: 0 0 8%;
+}
+.trainers{
+  border: 1px solid black;
+  width: 450px;
+  height: 600px;
+}
+}
+
+@media (max-width: 1025px){
+  .text{
+    padding: 8% 5% 6%;
+  }
+  .text span{
+    color: grey;
+    font-weight: bold;
+  }
+  .text h2{
+    font-size: 25px;
+    margin: 0 0 5%;
+  }
+  .text p{
+    font-size: 20px;
+    padding: 0 0 0 20px;
+  }
+  .parallax_scrolling{
+      height: 90vh;
+      margin: 5% 0;
+  }
+  .parallax_frame h2{
+    font-size: 50px;
+    margin: 4% 0 0;
+  }
+  .parallax_frame p{
+    margin: 2% 0;
+  }
+  .parallax_text{
+    line-height: 55px;
+    font-size: 27px;
+    padding: 0 5%;
+  }
+  /* Meet the team */
+.team_container{
+  margin: 8% 5% 12%;
+}
+.team_frame{}
+.team_frame h2{
+  font-size: 27px;
+}
+.team_frame p{
+  font-size: 21px;
+  margin: 0 0 8%;
+}
+.team_img{
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 0 0;
+}
+.team_img:first-child{
+  margin: 0 0 0;
+}
+.trainers{
+  border: 1px solid black;
+  width: 280px;
+  height: 320px;
+}
+} 
+
+@media (max-width: 960px){
+  /* Meet the team */
+.team_container{
+  margin: 8% 3% 12%;
+}
+.team_frame{}
+.team_frame h2{
+  font-size: 25px;
+}
+.team_frame p{
+  font-size: 19px;
+  margin: 0 0 8%;
+}
+.team_img{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 0;
+}
+.team_img:first-child{
+  margin: 0 0 0;
+}
+.trainers{
+  border: 1px solid black;
+  width: 280px;
+  height: 320px;
+}
+}
+
+@media (max-width: 940px){
+  /* Meet the team */
+.team_container{
+  margin: 8% 3% 12%;
+}
+.team_frame{}
+.team_frame h2{
+  font-size: 25px;
+}
+.team_frame p{
+  font-size: 19px;
+  margin: 0 0 8%;
+}
+.team_img{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 0;
+}
+.team_img:first-child{
+  margin: 0 0 0;
+}
+.trainers{
+  border: 1px solid black;
+  width: 260px;
+  height: 300px;
+}
+}
+
+@media (max-width: 860px){
+  /* Meet the team */
+.team_container{
+  margin: 8% 3% 12%;
+}
+.team_frame{}
+.team_frame h2{
+  font-size: 25px;
+}
+.team_frame p{
+  font-size: 19px;
+  margin: 0 0 8%;
+}
+.team_img{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 0;
+}
+.team_img:first-child{
+  margin: 0 0 0;
+}
+.trainers{
+  border: 1px solid black;
+  width: 250px;
+  height: 300px;
+}
+}
+
+@media (max-width: 800px){
+  /* Meet the team */
+.team_container{
+  margin: 8% 3% 12%;
+}
+.team_frame h2{
+  font-size: 22px;
+}
+.team_frame p{
+  font-size: 17px;
+}
+.team_img{
+  margin: 15px 0 0;
+}
+.trainers{
+  border: 1px solid black;
+  width: 230px;
+  height: 280px;
+}
+}
+
+@media (max-width: 770px){
+  /* IMAGE TEXT */
+.image_text{
+  height: inherit;
+  padding: 0 0 0 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image_text_text h2{
+  font-weight: 350;
+  font-size: 50px;
+}
+.image_text_text p{
+  margin: 2% 0 7%;
+  font-size: 25px;
+  width: 90%;
+}
+.image_text_text a{
+  padding: 12px 30px;
+}
+/* Text of note */
+  .text{
+    padding: 8% 5% 6%;
+  }
+  .text span{
+    color: grey;
+    font-weight: bold;
+  }
+  .text h2{
+    font-size: 20px;
+    margin: 0 0 5%;
+  }
+  .text p{
+    font-size: 18px;
+    padding: 0 0 0 20px;
+  }
+  /* Parallax scrolling */
+  .parallax_scrolling{
+      height: 85vh;
+      margin: 5% 0;
+  }
+  .parallax_frame p{
+    margin: 2% 0;
+  }
+  .parallax_text{
+    line-height: 65px;
+    font-size: 27px;
+    padding: 0 5%;
+    line-height: 45px;
+  }
+  /* Meet the team */
+.team_container{
+  margin: 8% 3% 12%;
+}
+.team_frame{}
+.team_frame h2{
+  font-size: 25px;
+}
+.team_frame p{
+  font-size: 19px;
+  margin: 0 0 8%;
+}
+.team_img{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 0;
+}
+.team_img:first-child{
+  margin: 0 0 0;
+}
+.trainers{
+  border: 1px solid black;
+  width: 225px;
+  height: 300px;
+}
+} 
+
+@media (max-width: 720px){
+  .team_frame h2{
+    font-size: 20px;
+  }
+  .team_frame p{
+    font-size: 17px;
+  }
+  .team_img{
+    margin: 10px 0 0;
+  }
+  .trainers{
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+  }
+  .parallax_text{
+    font-size: 23px;
+    padding: 0 3%;
+    line-height: 45px;
+  }
+  }
+
+@media (max-width: 650px){
+    /* Main Background Image */
+.image_container{
+  height: 100vh;
+}
+/* IMAGE TEXT */
+.image_text{
+padding: 0 0 0 60px;
+}
+.image_text_text h2{
+font-size: 50px;
+}
+.image_text_text p{
+margin: 2% 0 7%;
+font-size: 25px;
+}
+.image_text_text a{
+padding: 15px 30px;
+}
+
+    .parallax_scrolling{
+        height: 80vh;
+    }
+    .team_frame h2{
+      font-size: 20px;
+    }
+    .team_frame p{
+      font-size: 17px;
+    }
+    .team_img{
+      margin: 10px 0 0;
+    }
+    .trainers{
+      width: 185px;
+      height: 240px;
+      border: 1px solid black;
+    }
+    .parallax_text{
+      font-size: 23px;
+      padding: 0 3%;
+      line-height: 45px;
+    }
+} 
+
+@media (max-width: 600px){
+    /* Meet the team */
+.team_container{
+  margin: 8% 3% 12%;
+}
+.team_frame{}
+.team_frame h2{
+  font-size: 20px;
+}
+.team_frame p{
+  font-size: 17px;
+  margin: 0 0 8%;
+}
+.team_img{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 0;
+}
+.team_img:first-child{
+  margin: 0 0 0;
+}
+.trainers{
+  border: 1px solid black;
+  width: 170px;
+  height: 210px;
+}
+} 
+
+@media (max-width: 520px){
+  .image_text{
+    padding: 0 0 0 40px;
+    }
+  /* Meet the team */
+.team_container{
+margin: 8% 3% 12%;
+}
+.team_frame{}
+.team_frame h2{
+font-size: 18px;
+}
+.team_frame p{
+font-size: 15px;
+margin: 0 0 8%;
+}
+.team_img{
+display: flex;
+justify-content: space-around;
+margin: 20px 0 0;
+}
+.team_img:first-child{
+margin: 0 0 0;
+}
+.trainers{
+border: 1px solid black;
+width: 150px;
+height: 200px;
+}
+.parallax_text{
+  line-height: 35px;
+  font-size: 20px;
+  padding: 0 5%;
+}
+} 
+
+@media (max-width: 500px){
+  #scroll_btn{
+    visibility: hidden;
+  }
+  /* Meet the team */
+  .team_img{
+    margin: 0 0 0;
+    display: block;
+  }
+  .trainers{
+    border: 1px solid black;
+    width: 270px;
+    height: 300px;
+    margin: 0 auto 10px;
+    border: 1px solid black;
+    width: 320px;
+    height: 400px;
+  }
+  .trainers:last-child{
+      margin: 0 auto 10px;
+  }
+}   
+
+@media (max-width: 430px){
+  .image_container{
+    height: 80vh;
+}
+/* IMAGE TEXT */
+.image_text{
+padding: 0 0 0 10px
+}
+.image_text_text h2{
+font-size: 35px;
+}
+.image_text_text p{
+margin: 2% 0 7%;
+font-size: 22px;
+width: 100%;
+}
+.image_text_text a{
+padding: 7px 10px;
+font-size: 16px;
+}
+.team_img:first-child{
+margin: 0 0 0;
+}
+.trainers{
+border: 1px solid black;
+width: 250px;
+height: 270px;
+}
+.text h2{
+  font-size: 19px;
+  font-weight: 300;
+}
+.text p{
+  font-size: 16px;
+  padding: 0 0 0 20px;
+}
+} 
+
+@media (max-width: 375px){
+  .image_container{
+    height: 80vh;
+}
+/* IMAGE TEXT */
+.image_text{
+padding: 0 0 0 10px
+}
+.image_text_text h2{
+font-size: 35px;
+}
+.image_text_text p{
+margin: 2% 0 7%;
+font-size: 22px;
+}
+.image_text_text a{
+padding: 7px 10px;
+font-size: 16px;
+}
+  .team_container{
+    margin: 8% 1% 12%;
+    }
+  .team_img{
+  margin: 20px 0 0;
+  }
+  .team_frame h2{
+    font-size: 16px;
+    margin: 0 0 1% 0;
+  }
+  .team_frame p{
+    font-size: 14px;
+    margin: 0 0 8%;
+    }
+  .team_img:first-child{
+  margin: 0 0 0;
+  }
+  .trainers{
+  border: 1px solid black;
+  width: 230px;
+  height: 250px;
+  }
+  } 
+
+
+  @media (max-width: 340px){
+    .image_container{
+      height: 80vh;
+  }
+  /* IMAGE TEXT */
+  .image_text{
+  padding: 0 0 0 15px;
+  }
+  .image_text_text h2{
+  font-size: 30px;
+  }
+  .image_text_text p{
+  margin: 2% 0 7%;
+  font-size: 19px;
+  }
+  .image_text_text a{
+  padding: 7px 10px;
+  font-size: 15px;
+  }
+    .parallax_scrolling{
+        height: 75vh;
+    }
+    .team_container{
+      margin: 8% 1% 12%;
+      }
+    .team_img{
+    margin: 20px 0 0;
+    }
+    .team_frame h2{
+      font-size: 16px;
+      margin: 0 0 1% 0;
+    }
+    .team_frame p{
+      font-size: 12px;
+      margin: 0 0 8%;
+      }
+    .team_img:first-child{
+    margin: 0 0 0;
+    }
+    .trainers{
+    border: 1px solid black;
+    width: 230px;
+    height: 270px;
+    }
+    .text h2{
+      font-size: 19px;
+    }
+    .text p{
+      font-size: 16px;
+      padding: 0 0 0 20px;
+    }
+  } 
+@media (max-width: 300px){
+  /* IMAGE TEXT */
+  .image_text{
+    padding: 0 0 0 0;
+  }
+  .image_text_text h2{
+    font-size: 29px;
+  }
+  .image_text_text p{
+    margin: 3% 0 3%;
+    font-size: 18px;
+    width: 100%;
+  }
+  .image_text_text a{
+    padding: 8px 5px;
+    font-size: 15px;
+  }
+  /* Meet the team */
+  .trainers{
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto 10px;
+  }
+}
+
+@media (max-width: 275px){
+  .image_text_text a{
+    padding: 8px 6px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 245px){
+  .image_text_text a{
+    padding: 8px 6px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 230px){
+  /* IMAGE TEXT */
+  .image_text{
+    padding: 0 0 0 0;
+  }
+  .image_text_text h2{
+    font-size: 29px;
+  }
+  .image_text_text p{
+    margin: 3% 0 3%;
+    font-size: 16px;
+    width: 100%;
+  }
+  .image_text_text a{
+    padding: 8px 5px;
+    font-size: 10px;
+  }
+  /* Meet the team */
+  .trainers{
+    border: 1px solid black;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto 10px;
+  }
+  /* text */
+  .text h2{
+    font-size: 16px;
+  }
+  .text p{
+    font-size: 17px;
+  }
+  /* Parallax image text */
+  .parallax_text{
+    font-size: 15px;
+  }
+}

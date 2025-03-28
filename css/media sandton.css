@@ -1,0 +1,171 @@
+ 
+@media (min-width: 2400px){
+  .body{
+    margin: 0 auto;
+  }
+  /* Main Background Image */
+  .image_text{
+    padding: 0 100px 0 290px;
+    }
+.image_text_text h2{
+font-weight: 350;
+font-size: 100px;
+}
+.image_text_text p{
+margin: 3% 0 5%;
+font-size: 40px;
+width: 80%;
+}
+.image_text_text a{
+padding: 17px 40px;
+font-size: 30px;
+}
+.sandton_text{
+  font-size: 50px;
+}
+}
+
+@media (max-width: 900px){
+  #scroll_btn{
+    display: none;
+  }
+}      
+
+@media (max-width: 768px){
+/* IMAGE TEXT */
+.image_text{
+  padding: 50px 100px 0 180px;
+}
+.image_text_text h2{
+font-size: 45px;
+}
+.image_text_text p{
+margin: 3% 0 3%;
+font-size: 19px;
+width: 98%;
+}
+.image_text_text a{
+padding: 12px 20px;
+}
+.sandton_text_container{
+background-color: whitesmoke;
+padding: 4% 10% 13%;
+}
+.sandton_text{
+font-size: 25px;
+}
+
+}
+
+@media (max-width: 650px){
+  #scroll_btn{
+    visibility: hidden;
+  }
+  /* IMAGE TEXT */
+  .image_text{
+    padding: 40px 0 0 3%;
+    text-align: center;
+  }
+  .image_container{
+    height: 80vh;
+}
+.image_text_text h2{
+  font-size: 27px;
+}
+.image_text_text p{
+  margin: 3% 0 3%;
+  font-size: 17px;
+  width: 90%;
+}
+.image_text_text a{
+  padding: 8px 10px;
+}
+
+.sandton_text_container{
+  background-color: whitesmoke;
+  padding: 4% 3% 13%;
+}
+.sandton_text{
+  font-size: 19px;
+}
+.sandton_text h2{
+  margin: 7% 0 3%;
+  font-size: 22px;
+}
+}   
+
+@media (max-width: 375px){
+  .image_text_text{
+    text-align: center;
+  }
+  .image_text_text h2{
+    font-size: 26px;
+  }
+  .image_text_text p{
+    margin: 3% 0 3%;
+    font-size: 16px;
+    width: 90%;
+  }
+  .image_text_text a{
+    padding: 8px 10px;
+    font-size: 15px;
+  }
+  .sandton_text{
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 290px){
+  /* IMAGE TEXT */
+  .image_text{
+    padding: 0 0 0 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image_container{
+    height: 80vh;
+  }
+  .image_text_text{
+    width: 100%;
+  }
+  .image_text_text h2{
+    font-size: 28px;
+  }
+  .image_text_text p{
+    margin: 3% 0 3%;
+    font-size: 16px;
+    width: 100%;
+  }
+  .image_text_text a{
+    padding: 8px 5px;
+    font-size: 13px;
+  }
+
+  .sandton_text_container{
+    background-color: whitesmoke;
+    padding: 5% 3% 15%;
+  }
+  .sandton_text{
+    font-size: 17px;
+  }
+  .sandton_text h2{
+    margin: 7% 0 3%;
+  }
+}
+
+@media (max-width: 245px){
+  .image_text_text h2{
+    font-size: 25px;
+  }
+  .image_text_text p{
+    margin: 3% 0 3%;
+    font-size: 15px;
+    width: 100%;
+  }
+  .image_text_text a{
+    padding: 8px 5px;
+    font-size: 10px;
+  }
+}

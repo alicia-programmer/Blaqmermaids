@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+/* Javascript animation */
+.hidden{
+  opacity: 0;
+  transition: 1s;
+}
+.image_hide{
+  filter: blur(5px);
+  transform: translateY(30%);
+  transition: 1s;
+}
+.delay{
+  transform: translateY(25%);
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+
+/* Scroll to top button */
+#scroll_btn{
+  border: 1px solid #fff;
+  outline: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #00bfff;
+  display: none;
+  z-index: 4;
+}
+#scroll_btn i{
+  color: #fff;
+  font-size: 35px;
+}
+
+/* Main Background Image */
+.image_container{
+    background-image: url('../pic/water12.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.image_frame{
+    height: inherit;
+    background-color: rgba(0, 191, 255,0.1);
+}
+/* IMAGE TEXT */
+.image_text{
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image_text_text{
+  color: #fff;
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.image_text_text h2{
+  font-weight: 350;
+  font-size: 50px;
+  margin: 0 0 9%;
+  letter-spacing: 3px;
+}
+.image_text_text a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #008000dd;
+  padding: 15px 40px;
+  border-radius: 30px;
+}
+.image_text_text span{
+  font-weight: bolder;
+}
+
+
+/* Api map */
+.location{
+  margin: 12% 1% 13%;
+}
+.location_frame{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.api_map{}
+.contact_form{
+  width: 50%;
+}
+.form{
+  width: 100%;  
+}
+form{
+  align-self: center;
+}
+.inputs {
+  display: flex;
+  justify-content: space-between;
+}
+.inputs :first-child{
+  margin-right: 20px;
+}
+.inputs input{
+  padding: 15px 10px;
+  border: 1px solid #c0c0c077;
+  font-size: 18px;
+  color: grey;
+  width: 100%;
+  margin: 0 0 25px;
+  border-radius: 0;
+  outline: none;
+}
+.textarea{}
+.textarea textarea{
+  width: 96.5%;
+  height: 250px;
+  padding: 10px 10px 0;
+  font-size: 20px;
+  border-radius: 0;
+  color: grey;
+  border: 1px solid #c0c0c077;
+  outline: none;
+}
+.btn{
+  margin: 8% 0 2%;
+}
+.btn button{
+  background-color: green;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #fff;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
